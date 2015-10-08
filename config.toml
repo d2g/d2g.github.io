@@ -1,0 +1,23 @@
+baseurl = "http://d2g.org.uk"
+languageCode = "en-gb"
+title = "Code, Cloud, Geeky, Killjoy"
+theme="polymer"
+
+MetaDataFormat = "toml"
+paginate = 10 # optional
+# disqusShortname = "Your Disqus Name" # optional
+copyright = "Dan Goldsmith 2015"
+
+[params]
+  author = "Dan Goldsmith"
+  photo = "images/photo.png" # optional
+  profile = "images/profile.png" # optional
+  cover = "images/cover.png" # optional
+
+  github = "d2g" # optional
+  gplus = "DanGoldsmiths" # optional
+  linkedin = "dan-goldsmith/54/752/947" # optional
+  googleAnalyticsUserID = "27552001" # optional
+
+[permalinks]
+  post = "/:year/:month/:day/:filename/" # optional
