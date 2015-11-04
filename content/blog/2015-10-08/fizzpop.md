@@ -35,7 +35,7 @@ I waited in the lounge area while other people came in and had the guided tour e
 The training was delivered in a very factual way and then we were let loose to try it out for ourselves. I can totally see the appeal it's one of those easy to start, hard to master skills.
 
 
-While you're trying to concentrate (which your old not to do plenty of times) the banter an conversation continues on around you. It was generally all on topic and really interesting to listen into. Not that I could add much too it as I was still trying to concentrate and failing to pick anything but the most basic locks.
+While you're trying to concentrate (which your old not to do plenty of times) the banter and conversation continues on around you. It was generally all on topic and really interesting to listen into. Not that I could add much too it as I was still trying to concentrate and failing to pick anything but the most basic locks.
 
 
 The time seemed to fly by and it was about 10:30pm (I was the last non regular there) and they were shutting up and heading to the pub. Which, I was welcomed to join. I'm not a drinker so I gave it a miss.

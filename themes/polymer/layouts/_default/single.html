@@ -17,19 +17,21 @@
     {{end}} 
     <div class="description">{{ .Content }}</div>
     <div class="tags">
-      {{ .Date.Format "2 Jan 2006" }}
+      {{if not (isset .Params "system")}}
+        {{ .Date.Format "2 Jan 2006" }}
+      {{end}}
       {{if .Params.tags }}
         {{ range $index, $tag := .Params.tags }}
           <a href="{{$baseurl}}/tags/{{ $tag | urlize }}/">#{{ $tag }}</a>
         {{ end }}
       {{end}} 
     </div>
-    {{ with .Site.DisqusShortname }}
-      {{ partial "disqus.html" . }}
-    {{ end }}
+    {{if not (isset .Params "system")}}
+      {{ with .Site.DisqusShortname }}
+        {{ partial "disqus.html" . }}
+      {{ end }}
+    {{end}}
   </div>
-
-</div>
 
 {{if not (isset .Params "system")}}
 <paper-item>

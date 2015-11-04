@@ -1,0 +1,19 @@
+<form id='cowments-form' style="padding-top:20px;" name='form'>
+  <div class='input-group input-group--email'><label for='email'>Email</label><input type='email' style="width:98%;border-radius:5px;border-style:solid;border-width:2px;border-color:rgba(0, 64, 80, .4);padding:5px;" name='email' id='email'></div>
+  <div class='input-group input-group--comment'><label for='comment'>Comment</label><textarea name='comment' id='comment' style="width:98%;height:10em;border-radius:5px;border-width:2px;border-color:rgba(0, 64, 80, .4);padding:5px;"></textarea></div>
+  <div class='input-group input-group--submit'><input type='submit' style="float:right;background-color:#004050;border-color:#004050;border-style:solid;border-radius:8px;cursor:pointer;color:#ffffff;padding:2px 32px;text-decoration:none;margin-top:10px;box-shadow:none;" id='cowment-btn-submit' value='Add comment' /></div>
+</form>
+<div id='cowments-container'></div>
+
+<script src='http://cdn.cowments.com/assets/cowment.js'></script>
+
+<script type="text/javascript">
+  window.onload = function() {
+    cowments.init({
+      domain_id: '5c0615bbc3ca4497ab04',
+      // next settings are all optional
+      use_dark_theme: '0',
+      use_custom_css: '1'
+    });
+  };
+</script>
