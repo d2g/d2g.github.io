@@ -10,7 +10,7 @@ system = true
 Send me a message and I'll email you back.
 
 <form action="//pooleapp.com/stash/c4ee3660-c34a-46c2-ba3b-ac934675abf8/" method="post">
-    <input type="hidden" name="redirect_to" value="http://www.d2g.org.uk/thanks/" />
+    <input type="hidden" name="redirect_to" value="http://d2g.org.uk/thanks/" />
     <input type="email" placeholder="Your Email Address" name="replyto" style="width:98%;border-radius:5px;border-style:solid;border-width:2px;border-color:rgba(0, 64, 80, .4);padding:5px;"/><br/><br/>
     <textarea name="message" placeholder="Your message" style="width:98%;height:10em;border-radius:5px;border-width:2px;border-color:rgba(0, 64, 80, .4);padding:5px;"></textarea><br/>
     
